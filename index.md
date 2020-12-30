@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome
 
 [LinkedIn](https://www.linkedin.com/in/jacob-lavell-3411b1168/)
 
