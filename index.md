@@ -4,7 +4,7 @@ I am Jacob Lavell, a computer science student at Brock University.
 
 [LinkedIn](https://www.linkedin.com/in/jacob-lavell-3411b1168/)
 
-[Resume]()
+[Resume](Resume.pdf)
 
 ### Markdown
 
