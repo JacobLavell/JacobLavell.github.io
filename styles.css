@@ -1,6 +1,9 @@
 body
 {
   margin: 2;
-  font-size: 15px;
+}
 
+p
+{
+  font-size: 14px;
 }
