@@ -50,18 +50,6 @@ body a:hover
 	color: white;
 	transition: 0.3s;
 }
-header img
-{
-	width: 10%;
-}
-article img
-{
-	float: left;
-}
-section
-{
-	display: inline;
-}
 body a:link
 {
 	border-radius:6pt;
