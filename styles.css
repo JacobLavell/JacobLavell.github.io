@@ -27,7 +27,8 @@ section
 }
 footer
 {
-	background-color: #5D5C61; border-radius:8pt; font-family: me123;
+	background-color: #5D5C61;
+	border-radius:8pt;
 }
 header li
 {
@@ -61,11 +62,6 @@ section
 {
 	display: inline;
 }
-@font-face
-{
-	font-family: 'me123';
-	src: url('me123.ttf');
-}
 body a:link
 {
 	border-radius:6pt;
@@ -86,7 +82,8 @@ body button
 }
 body button:hover
 {
-	background-color: green; color:white;
+	background-color: green;
+	color:white;
 }
 @media print
 {
