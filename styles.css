@@ -4,19 +4,19 @@ header
 }
 body
 {
-  background-color: #2C3531;
+	background-color: #2C3531;
 	color: white;
 }
 body p
 {
-  background-color: #246A6E;
+	background-color: #246A6E;
 	padding:8pt;
 	border-radius:6pt;
 	font-size: 20px;
 }
 article
 {
-  background-color: #116466;
+	background-color: #116466;
 	padding:12pt;
 	border-radius:8pt;
 }
@@ -27,16 +27,16 @@ section
 }
 footer
 {
-  background-color: #5D5C61; border-radius:8pt; font-family: me123;
+	background-color: #5D5C61; border-radius:8pt; font-family: me123;
 }
 header li
 {
-  display: inline;
+	display: inline;
 }
 body a:link
 {
-  background-color: #379683;
-	border: 1px;
+	background-color: #379683;
+	border: 6px;
 	color:white;
 	text-align:center;
 	padding:12px;
@@ -51,28 +51,28 @@ body a:hover
 }
 header img
 {
-  width: 10%;
+	width: 10%;
 }
 article img
 {
-  float: left;
+	float: left;
 }
 section
 {
-  display: inline;
+	display: inline;
 }
 @font-face
 {
-  font-family: 'me123';
-  src: url('me123.ttf');
+	font-family: 'me123';
+	src: url('me123.ttf');
 }
 body a:link
 {
-  border-radius:6pt;
+	border-radius:6pt;
 }
 body button
 {
-  background-color: #379683;
+	background-color: #379683;
 	border: none;
 	color: white;
 	padding: 16px;
@@ -86,7 +86,7 @@ body button
 }
 body button:hover
 {
-  background-color: green; color:white;
+	background-color: green; color:white;
 }
 @media print
 {
