@@ -1,9 +1,95 @@
+header
+{
+	border-radius:8pt;
+}
 body
 {
-  margin: 2;
+  background-color: #2C3531;
+	color: white;
 }
-
-p
+body p
 {
-  font-size: 24px;
+  background-color: #246A6E;
+	padding:8pt;
+	border-radius:6pt;
+	font-size: 20px;
+}
+article
+{
+  background-color: #116466;
+	padding:12pt;
+	border-radius:8pt;
+}
+section
+{
+	padding:8pt;
+	border-radius:4pt;
+}
+footer
+{
+  background-color: #5D5C61; border-radius:8pt; font-family: me123;
+}
+header li
+{
+  display: inline;
+}
+body a:link
+{
+  background-color: #379683;
+	border: 1px;
+	color:white;
+	text-align:center;
+	padding:12px;
+	display: inline-block;
+	cursor: pointer;
+}
+body a:hover
+{
+	background-color: #21B96F;
+	color: white;
+	transition: 0.3s;
+}
+header img
+{
+  width: 10%;
+}
+article img
+{
+  float: left;
+}
+section
+{
+  display: inline;
+}
+@font-face
+{
+  font-family: 'me123';
+  src: url('me123.ttf');
+}
+body a:link
+{
+  border-radius:6pt;
+}
+body button
+{
+  background-color: #379683;
+	border: none;
+	color: white;
+	padding: 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+body button:hover
+{
+  background-color: green; color:white;
+}
+@media print
+{
+	header nav, footer{display:none}
+	body{color: black;}
 }
