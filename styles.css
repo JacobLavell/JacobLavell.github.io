@@ -51,6 +51,7 @@ body a:link
 	padding:12px;
 	display: inline-block;
 	cursor: pointer;
+	text-decoration: none;
 }
 body a:hover
 {
