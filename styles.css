@@ -38,6 +38,10 @@ header li
 {
 	display: inline;
 }
+body li
+{
+	background-color: #116466;
+}
 body a:link
 {
 	background-color: #379683;
