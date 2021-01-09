@@ -40,7 +40,8 @@ header li
 }
 body li
 {
-	background-color: #116466;
+	background: #116466;
+	padding: 20px;
 }
 body a:link
 {
