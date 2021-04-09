@@ -25,6 +25,12 @@ body p
   overflow-x: hidden;
   padding: 8px;
 }
+.main
+{
+  margin-left: 140px;
+  font-size: 28px;
+  padding: 0px 10px;
+}
 article
 {
 	background-color: #116466;
