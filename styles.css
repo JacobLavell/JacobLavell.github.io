@@ -14,6 +14,17 @@ body p
 	border-radius:6pt;
 	font-size: 20px;
 }
+.sidenav
+{
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  left: 10px;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 8px;
+}
 article
 {
 	background-color: #116466;
