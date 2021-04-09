@@ -28,7 +28,6 @@ body p
 .main
 {
   margin-left: 140px;
-  font-size: 28px;
   padding: 0px 10px;
 }
 article
@@ -60,7 +59,7 @@ body li
 	background: #246A6E;
 	padding: 5px;
 }
-body a:link
+/*body a:link
 {
 	background-color: #379683;
 	border: 6px;
@@ -80,7 +79,7 @@ body a:hover
 body a:link
 {
 	border-radius:6pt;
-}
+}*/
 body button
 {
 	background-color: #379683;
