@@ -1,10 +1,10 @@
 .sidebar {
-  width: 190px;
+  width: 200px;
   position: fixed;
-  top: 320px;
+  top: 380px;
   left: 10px;
   background: rgb(70, 70, 70);
-  padding: 8px 0;
+  padding: 12px 0;
   border-radius: 20px;
 }
 
@@ -21,15 +21,35 @@
 }
 
 .main {
-  margin-left: 200px;
+  margin-left: 220px;
   font-size: 24px;
   padding: 0px 10px;
 }
 
 .list {
   float: left;
-  width: 260px;
+  width: 284px;
+  height: 160px;
   padding: 10px;
+  border: 4px;
+  border-style: solid;
+  border-color: #139244;
+  border-radius: 12px;
+  margin: 4px;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li {
+  padding: 2px;
+}
+
+h2 {
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 body {
@@ -38,17 +58,17 @@ body {
 }
 
 header {
-  padding: 20px;
+  padding: 64px;
   text-align: center;
   background: #139244;
   color: white;
   font-size: 30px;
-  border-radius: 40px;
+  border-radius: 44px;
 }
 
 footer {
   background: rgb(70, 70, 70);
-  padding: 4px;
+  padding: 6px;
   border-radius: 6px;
   clear: both;
   position: relative;
