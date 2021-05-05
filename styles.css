@@ -32,6 +32,16 @@
   padding: 10px;
 }
 
+body a:link{
+  background-color: #379683;
+	border: 1px;
+	color:white;
+	text-align:center;
+	padding:12px;
+	display: inline-block;
+	cursor: pointer;
+}
+
 body {
   background-color: rgb(33, 33, 33);
   color: rgb(230, 230, 230);
