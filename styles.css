@@ -41,7 +41,8 @@
 
 .duration {
   float: right;
-  margin: 20px 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .education {
@@ -51,6 +52,13 @@
   border-color: #139244;
   border-radius: 12px;
   margin: 4px;
+}
+
+.edu h2 {
+  float: left;
+  font-size: 1.2em;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 ul {
@@ -63,13 +71,9 @@ li {
 }
 
 h2 {
+  font-size: 1.2em;
   margin-top: 4px;
   margin-bottom: 4px;
-}
-
-h3 {
-  margin: 20px 0;
-  float: left;
 }
 
 body {
