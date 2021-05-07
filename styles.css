@@ -1,6 +1,6 @@
 .sidebar {
-  width: 200px;
   position: fixed;
+  width: 200px;
   top: 380px;
   left: 10px;
   background: rgb(70, 70, 70);
@@ -23,8 +23,8 @@
 .main {
   margin-left: 220px;
   margin-right: 120px;
-  font-size: 26px;
   padding: 0px 20px;
+  font-size: 26px;
 }
 
 .list {
@@ -32,11 +32,16 @@
   width: 310px;
   height: 160px;
   padding: 10px;
+  margin: 6px;
   border: 4px;
   border-style: solid;
-  border-color: #139244;
   border-radius: 12px;
-  margin: 4px;
+  border-color: #139244;
+  transition: transform 0.2s;
+}
+
+.list:hover {
+  transform: scale(1.1);
 }
 
 .duration {
@@ -48,10 +53,15 @@
 .education {
   padding: 12px;
   border: 4px;
+  margin: 4px;
   border-style: solid;
   border-color: #139244;
   border-radius: 12px;
-  margin: 4px;
+  transition: transform 0.2s;
+}
+
+.education:hover {
+  transform: scale(1.04);
 }
 
 .edu h2 {
@@ -59,6 +69,12 @@
   font-size: 1.2em;
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 ul {
@@ -70,17 +86,6 @@ li {
   padding: 2px;
 }
 
-h2 {
-  font-size: 1.2em;
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-body {
-  background-color: rgb(33, 33, 33);
-  color: rgb(230, 230, 230);
-}
-
 header {
   padding: 64px;
   text-align: center;
@@ -88,6 +93,11 @@ header {
   color: white;
   font-size: 30px;
   border-radius: 44px;
+}
+
+body {
+  background-color: rgb(33, 33, 33);
+  color: rgb(230, 230, 230);
 }
 
 footer {
