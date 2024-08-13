@@ -8,7 +8,7 @@ header {
 }
 
 body {
-  background-color: #0d0d0d;
+  background-color: #191919;
   color: #fff;
   text-align: center;
   font-size: 26px;
@@ -27,6 +27,11 @@ a:hover {
 
 h2 {
   font-size: 1.2em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+h3 {
+  font-size: 1em;
   margin-top: 4px;
   margin-bottom: 4px;
 }
